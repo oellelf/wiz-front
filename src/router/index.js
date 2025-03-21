@@ -1,13 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../pages/HomeIndex.vue'
-import About from '../pages/AboutIndex.vue'
+import UnderWriting from '../pages/UnderWriting.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   { path: '/', component: Home },
-  { path: '/about', component: About }
+  { path: '/UnderWriting', component: UnderWriting
+   }
 ]
 
 const router = new VueRouter({

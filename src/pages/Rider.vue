@@ -1,12 +1,12 @@
 <template>
   <div>
-    ABOUT
+    Menu Rider
   </div>
 </template>
 
 <script>
 export default {
-  name: 'AboutIndex',
+  name: 'Menu-Rider',
   props: {
     msg: String
   }

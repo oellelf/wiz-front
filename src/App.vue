@@ -1,6 +1,10 @@
+
+
 <template>
   <div id="app" class="wrap">
-    <LnbMenu />
+    <div class="lnb-container">
+      <LnbMenu />
+    </div>
     <router-view />
   </div>
 </template>
@@ -21,5 +25,15 @@ body {
   margin: 0;
   padding: 0;
 }
-.wrap { width: 1200px; height: 800px; border : 5px solid #645ED3; border-radius: 20px;}
+.wrap {
+  width: 1200px;
+  height: 800px;
+  border: 5px solid #645ED3;
+  border-radius: 20px;
+}
+.lnb-container {
+  margin-top: 30px; /* ✅ LnbMenu 위 여백 */
+}
 </style>
+
+
