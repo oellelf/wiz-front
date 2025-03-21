@@ -1,4 +1,4 @@
-# WIZ-FRONT
+# wiz-front
 
 ## Project setup
 ```
